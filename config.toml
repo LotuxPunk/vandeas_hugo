@@ -19,11 +19,11 @@ style = "github-dark"
         info = "Full Stack developer"
         weight = 1
         [languages.en.menu]
-            [[languages.en.menu.main]]
-                identifier = 'projects'
-                name = "Projects"
-                weight = 1
-                url  = "projects/"
+#            [[languages.en.menu.main]]
+#                identifier = 'projects'
+#                name = "Projects"
+#                weight = 1
+#                url  = "projects/"
             [[languages.en.menu.main]]
                 identifier = 'about'
                 name = "About"
@@ -36,11 +36,11 @@ style = "github-dark"
         info = "Développeur Full Stack"
         weight = 2
         [languages.fr.menu]
-            [[languages.fr.menu.main]]
-                identifier = 'projects'
-                name = "Projets"
-                weight = 1
-                url = 'projects/'
+#            [[languages.fr.menu.main]]
+#                identifier = 'projects'
+#                name = "Projets"
+#                weight = 1
+#                url = 'projects/'
             [[languages.fr.menu.main]]
                 identifier = 'about'
                 name = "À propos"
@@ -84,18 +84,33 @@ style = "github-dark"
   icon = "fa fa-twitter fa-2x"
   weight = 3
   url = "https://twitter.com/VandendaelenC/"
-  [[params.social]]
+[[params.social]]
+  name = "Facebook"
+  icon = "fa fa-facebook fa-2x"
+  weight = 3
+  url = "https://www.facebook.com/clement.vandendaelen/"
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa fa-linkedin fa-2x"
+  weight = 3
+  url = "https://www.linkedin.com/in/cl%C3%A9ment-vandendaelen/"
+[[params.social]]
+  name = "Phone"
+  icon = "fa fa-phone fa-2x"
+  weight = 3
+  url = "tel:+32478580387"
+[[params.social]]
   name = "E-mail"
   icon = "fa fa-envelope fa-2x"
   weight = 1
   url = "mailto:cv@vandeas.be"
 
 # Menu links
-[[menu.main]]
-  identifier = 'projects'
-  name = "Projects"
-  weight = 1
-  url  = "projects/"
+#[[menu.main]]
+#  identifier = 'projects'
+#  name = "Projects"
+#  weight = 1
+#  url  = "projects/"
 [[menu.main]]
   identifier = 'about'
   name = "About"
