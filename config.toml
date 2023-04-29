@@ -1,0 +1,103 @@
+baseurl = "https://vandeas.be"
+title = "Clément Vandendaelen"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+
+#disqusShortname = "yourdiscussshortname"
+
+[markup.highlight]
+style = "github-dark"
+
+[languages]
+    [languages.en]
+        title = "Clément Vandendaelen"
+        description = "Clément Vandendaelen's personal website"
+        languageName ="English"
+        info = "Full Stack developer"
+        weight = 1
+        [languages.en.menu]
+            [[languages.en.menu.main]]
+                identifier = 'projects'
+                name = "Projects"
+                weight = 1
+                url  = "projects/"
+            [[languages.en.menu.main]]
+                identifier = 'about'
+                name = "About"
+                weight = 2
+                url = "about/"
+    [languages.fr]
+        title = "Clément Vandendaelen"
+        description = "Site personnel de Clément Vandendaelen"
+        languageName ="Français"
+        info = "Développeur Full Stack"
+        weight = 2
+        [languages.fr.menu]
+            [[languages.fr.menu.main]]
+                identifier = 'projects'
+                name = "Projets"
+                weight = 1
+                url = 'projects/'
+            [[languages.fr.menu.main]]
+                identifier = 'about'
+                name = "À propos"
+                weight = 2
+                url = 'about/'
+
+[params]
+  author = "Clément Vandendaelen"
+  keywords = "blog,developer,personal"
+  avatarurl = "images/avatar.jpg"
+  #gravatar = "john.doe@example.com"
+
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  since = 2023
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/LotuxPunk"
+[[params.social]]
+  name = "Twitter"
+  icon = "fa fa-twitter fa-2x"
+  weight = 3
+  url = "https://twitter.com/VandendaelenC/"
+  [[params.social]]
+  name = "E-mail"
+  icon = "fa fa-envelope fa-2x"
+  weight = 1
+  url = "mailto:cv@vandeas.be"
+
+# Menu links
+[[menu.main]]
+  identifier = 'projects'
+  name = "Projects"
+  weight = 1
+  url  = "projects/"
+[[menu.main]]
+  identifier = 'about'
+  name = "About"
+  weight = 2
+  url = "about/"
